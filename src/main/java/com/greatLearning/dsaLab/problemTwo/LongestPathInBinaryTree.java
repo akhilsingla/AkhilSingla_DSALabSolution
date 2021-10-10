@@ -22,6 +22,7 @@ public class LongestPathInBinaryTree {
         //find longest path of the tree
         ArrayDeque longestPathStack = new LongestPathInBinaryTree().getLongestPath(rootNode);
 
+        System.out.print("Longest Path :- ");
         //pop from stack to show longest path
         while (!longestPathStack.isEmpty())
         {
